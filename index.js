@@ -12,7 +12,7 @@ const url = require("url");
 var questions = [];
 
 var config;
-var configpath = expandTilde("~/.aml-gdoc-credentials");
+var configpath = expandTilde("./.aml-gdoc-credentials");
 
 var HOST = "http://127.0.0.1";
 var PORT = 6006;
