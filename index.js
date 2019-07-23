@@ -21,7 +21,7 @@ try {
 } catch (e) { }
 
 var HOST = "http://127.0.0.1";
-var PORT = 6006;
+var PORT = process.env.PORT || 6006;
 // var BASE_URL = HOST + ":" + PORT;
 var REDIRECT_PATH = "/auth";
 var LOGIN_PATH = "/login";
