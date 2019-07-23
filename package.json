@@ -3,7 +3,7 @@
   "version": "2.1.1",
   "description": "A server to turn retrieve and return ArchieML formatted Google Docs as json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
