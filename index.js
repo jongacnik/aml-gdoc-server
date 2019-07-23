@@ -122,7 +122,9 @@ app.get("/favicon.ico",function(req,res) {
 
 app.get('/:key', function (req, res) {
 	console.log(`${timestamp()} GET /${DOC_KEY}`);
-	console.log(fs.statSync(tokenpath).mtime)
+	try {
+		console.log(fs.statSync(tokenpath).mtime)
+	} catch (e) { }
 
 	if(Date.now() > tokens.expiry_date) updateToken(oAuth2Client);
 
