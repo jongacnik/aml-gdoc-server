@@ -1,5 +1,7 @@
 # aml-gdoc-server
 
+FORK: Modified to read creds from an .env file for deploy to heroku. Very raw, just using this for personal needs.
+
 This is a simple way to retrieve Google Docs written in the [ArchieML](http://archieml.org/) format as json for web apps.
 It was created for the Quartz things team, which uses it as part of our build process to streamline the editing of our work.
 
