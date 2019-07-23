@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@newswire/doc-to-archieml": "^1.0.0",
+    "dotenv": "^8.0.0",
     "expand-tilde": "^2.0.2",
     "express": "^4.17.1",
     "googleapis": "^40.0.0",
